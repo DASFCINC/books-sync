@@ -1,0 +1,13 @@
+:root { --text: #1b1b1b; --muted: #555; --link: #0b5cad; --bg: #ffffff; }
+@media (prefers-color-scheme: dark) {
+  :root { --text: #e8e8e8; --muted: #b0b0b0; --link: #8ab8f0; --bg: #121417; }
+}
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 "Source Sans 3", "Segoe UI", sans-serif; }
+main { max-width: 68ch; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.8rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 28px 0 6px; }
+p, li { margin: 0 0 10px; }
+.meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 24px; }
+a { color: var(--link); }
+nav { margin-top: 40px; font-size: 0.95rem; color: var(--muted); }
